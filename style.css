@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 15px;
+	color: rgba(73, 67, 59, 1);
+	background-image: url("images/groceries_2.jpg");
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: blanchedalmond;
+}
+
+p {
+	text-align: left;
+}
+
+
+
+#container {
+	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
+	border-radius: 3px 3px 3px 3px;
+	background-image: linear-gradient(to right, blanchedalmond, rgb(175, 144, 97) );
+	padding: 15%;
+}
+
+#header h1 {
+	padding: 5px;
+	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
+	border-radius: 3px;
+	position: relative;
+	color: rgba(77, 64, 48, 0.65);
+	padding-top: 0%;
+	text-align: center;
+}
+
+
+
+#nav ul li{
+	list-style-type: none;
+}
+#nav ul li a {
+	text-decoration: none;
+}
+
+.img {
+	border-radius: 2.5px;
+	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);	
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav {
+	background-color: rgb(97, 91, 81);
+	position: fixed;
+	overflow: hidden;
+	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
+
+}
+
+#nav a {
+	color: rgba(226, 189, 144, 0.65);
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+	padding: 5px;
+	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
+	border-radius: 3px;
+	position: relative;
+	color: rgba(77, 64, 48, 0.65);
+	padding-top: 0%;
+	text-align: center;
+}
