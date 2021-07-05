@@ -2,48 +2,306 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" 
-	content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 	<title>Gitau's Groceries</title>
-	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="https://www.instagram.com/g._i._t._a._u._/" class="navbar-brand animate__animated animate__bounceIn">Gitau's Groceries</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="ToggleNavigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Products</a>
-		<a href="#">Contact</a>
-
-	  </div>
-
-	  <!-- Use any element to open the sidenav -->
-	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More info</span><br>
-
-	<div id="container">
-		
-		<div id="header">
-			<h1>Gitau's Groceries</h1>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active">
+						<a class="nav-link animate__animated animate__swing animate__slow animate__infinite" href="#">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#stock">Stock</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div id="content">
-			
+	</nav>
 
-				<div id="content">
 
-					<h2>Main content Grocery items</h2>
-					<p>Main content <here class="">Grocery Items means supply items, non-food items, foodstuffs and drinks including, without limitation, any or all of the following: (i) dairy products (including without limitation milk, yogurt, ice cream, cheese and/or any other items commonly found in a grocery store and/or supermarket dairy section)</here></p>
-					<img class="img" style="width: 100%; height: 100%;" src="./images/groceries_1.webp">
-					<p>Main content <here class="">Grocery Items means supply items, non-food items, foodstuffs and drinks including, without limitation, any or all of the following: (i) dairy products (including without limitation milk, yogurt, ice cream, cheese and/or any other items commonly found in a grocery store and/or supermarket dairy section)</here></p>
-					<img class="img" style="width: 100%; height: 100%;" src="./images/groceries_2.jpg">
+
+	<header class="jumbotron jumbotron-fluid">
+		<div class="container-fluid text-center">
+			<h1 class="display-2 animate__animated animate__fadeInDown">Welcome to <strong>Gitau's Groceries</strong></h1>
+
+			<p class="lead pb-4 animate__animated animate__fadeInUp">We make <strong>shopping</strong> for Groceries easy as <strong>1, 2, 3</strong>...</p>
+		</div>
+
+	</header>
+
+
+	<section id="stock" class="container animate__animated animate__fadeInLeft animate__slow">
+		<h2 class="display-4 text-center mt-5 mb-3">
+			In Stock
+		</h2>
+
+		<!-- ROW 1 -->
+		<div class="row text-center">
+
+			<!-- CARD 1 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title animate__animated animate__tada animate__infinite" style="color: orangered;">On Sale</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
 				</div>
+
+			</div>
+
+			<!-- CARD 2 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 3 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 4 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
 		</div>
-<br>
-		<div id="footer">Gitau's Groceries 2020 - 2021 &#169;</div>
 
-	</div>
+		<!-- ROW 2 -->
+		<div class="row text-center">
 
-<script src="script.js" type="text/javascript"></script>
+			<!-- CARD 1 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
 
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 2 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 3 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 4 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title animate__animated animate__jello animate__infinite" style="color: orangered;">Sold Out</h4>
+						<p class="card-text">Will return to stock soon!</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- ROW 3 -->
+		<div class="row text-center">
+
+			<!-- CARD 1 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 2 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 3 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- CARD 4 -->
+			<div class="col-md-3 mb-4">
+				<div class="card h-100 shadow-lg">
+					<img src="images/groceries.jpg" alt="groceries" class="card-img-top">
+
+					<div class="card-body">
+						<h4 class="card-title">Order Now</h4>
+						<p class="card-text">Place Your Order Now</p>
+					</div>
+
+					<div class="card-footer py-4">
+						<a href="#" class="btn btn-secondary">Add to Cart</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section id="about" class="container-fluid text-center py-4 mt-4">
+		<h2 class="display-3 pb-5 my-4 animate__animated animate__fadeInUp">
+			About
+		</h2>
+
+		<p class="lead pb-5 animate__animated animate__fadeInUp" style="font-size: xx-large;">
+			<strong>#groceries</strong>
+			"Want to get a <strong>different experience</strong> from <em>grocery shopping?</em> – Well, you've come to the <strong>right place</strong>.We are more than 100% sure that you will be <strong>satisfied</strong> with our grocery products and <strong>customer service</strong>..."
+		</p>
+
+		<blockquote class="blockquote-footer"><a style="font-size: x-large; color: black;" href="https://www.instagram.com/g._i._t._a._u._/">Chris Gitau </a><em>founder</em></blockquote>
+
+	</section>
+
+
+	<footer class="py-3 bg-gradient">
+		<div class="container">
+			<p id="footer-text" class="text-center">
+				Copyright&#169;<u>Gitau's Groceries</u> 2021
+			</p>
+		</div>
+	</footer>
+
+
+
+
+
+	<script src="bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
+
+
+	<script src="script.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,119 +1,59 @@
-body {
-	margin: 0;
-	padding: 15px;
-	color: rgba(73, 67, 59, 1);
-	background-image: url("images/groceries_2.jpg");
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: blanchedalmond;
+
+
+
+body
+{
+	padding-top: 56px;
 }
 
-p {
-	text-align: left;
+.navbar
+{
+	box-shadow: 2px 3px 40px 26px rgba(0, 0, 0, .55);
+}
+
+.jumbotron
+{
+	background: url(images/groceries.jpg);
+	background-size: auto;
+	padding: 52px;
+}
+
+.btn-secondary
+{
+	background-color: orange;
+	border: orange;
+}
+
+.btn-secondary:hover
+{
+	background-color: white;
+	border: thin solid orange;
+	color: orange;
+}
+
+.btn-secondary:active
+{
+	background-color: white;
+	border: thin solid orange;
+	color: orange;
+}
+
+#about
+{
+	background: url(images/groceries_8.jpg);
+	/* filter: blur(3px); */
+	box-shadow: inset 0 0 100px black;
+	color: black;
+	background-size: cover;
+	
 }
 
 
 
-#container {
-	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
-	border-radius: 3px 3px 3px 3px;
-	background-image: linear-gradient(to right, blanchedalmond, rgb(175, 144, 97) );
-	padding: 14%;
-}
-
-#header h1 {
-	padding: 5px;
-	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
-	border-radius: 3px;
-	position: relative;
-	color: rgba(77, 64, 48, 0.65);
-	padding-top: 0%;
-	text-align: center;
-}
-
-.img {
-	border-radius: 2.5px;
-	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);	
-}
-
-span {
-	color: blanchedalmond;
-}
-
-
- /* The side navigation menu */
- .sidenav {
-	height: 100%; /* 100% Full-height */
-	width: 0; /* 0 width - change this with JavaScript */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Stay on top */
-	top: 0;
-	left: 0;
-	background-color: #111; /* Black*/
-	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 60px; /* Place content 60px from the top */
-	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-	padding: 8px 8px 8px 32px;
-	text-decoration: none;
-	font-size: 20px;
-	color: #8f846f;
-	display: block;
-	transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-	color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 27px;
-	margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-	transition: margin-left .5s;
-	padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-  } 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
-#footer {
-	padding: 5px;
-	box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(34, 34, 34, 0.7);
-	border-radius: 3px;
-
-	color: rgba(77, 64, 48, 0.65);
-	padding-top: 0%;
-	text-align: center;
+#footer-text
+{
+	
 }
